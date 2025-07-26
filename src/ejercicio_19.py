@@ -4,7 +4,7 @@
 ## hay en la frase frase = "programacion es divertida" y muestra el total.
 
 frase = "programacion es divertida"
-vocales = "aeiouáéíóú"
+vocales = "aeiou"
 contador = 0
 for letra in frase.lower():
     if letra in vocales:
